@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "label": "Cash",
+      "type": "textfield",
+      "id": "Field_174p7ai",
+      "key": "money",
+      "description": "How much ?",
+      "validate": {
+        "required": true
+      }
+    },
+    {
+      "label": "What you want to do?",
+      "type": "textfield",
+      "id": "Field_1u4q1bs",
+      "key": "eos",
+      "description": "Eat or Sleep?",
+      "validate": {
+        "required": true
+      }
+    }
+  ],
+  "type": "default",
+  "id": "prepareForm",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.6.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.18.0",
+  "schemaVersion": 5
+}

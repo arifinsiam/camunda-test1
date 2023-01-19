@@ -1,0 +1,17 @@
+spring.datasource:
+  type: org.postgresql.ds.PGSimpleDataSource
+  username: postgres
+  password: admin
+  url: jdbc:postgresql://localhost:5432/camundaTest1
+
+camunda.bpm:
+  deployment-resource-pattern:
+    - classpath*:**/*.bpmn
+    - classpath*:**/*.bpmn20.xml
+    - classpath*:**/*.dmn
+    - classpath*:**/*.dmn11.xml
+    - classpath*:**/*.form
+    -
+camunda.bpm.admin-user:
+  id: demo
+  password: demo
